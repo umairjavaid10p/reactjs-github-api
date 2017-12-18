@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.users-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.users-list li {
+    margin-bottom: 10px;
+}
+
+.users-list li a {
+    cursor: pointer;
+}
+
+.users-list li img {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.search-wrap {
+    margin-bottom: 15px;
+}
+
+.spinner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #aaa;
+    width: 60px;
+    height: 60px;
+    z-index: 1100;
+}
+
+.spinner img {
+    display: block;
+    margin: 5px 0 0 5px;
+    width: 50px;
+    height: 50px;
+}
